@@ -11,16 +11,16 @@ incompatible:
   'blok@mozilla.org': 'Tracking Protection'
 thumbnail: /static/images/experiments/containers/icon/thumbnail.png
 description: >
-  Contain yourselves! Create different containers for each of your online lives -  
+  Contain yourselves! Create different containers for each of your online lives -
   your work self, your social self, your personal self - to stay organized and maintain privacy.
 introduction: >
-  <div class="warning"><strong>Note: Because of the security properties of Containers, Test Pilot experiments such as Page Shot, Snooze Tabs, and Pulse will not work from within Container tabs. Remember, this is experimental technology!</strong></div>
-  Containers let you create profiles in Firefox for all of your online lives. Custom 
-  labels and color-coded tabs help keep different activities — like online shopping, 
-  travel planning, or checking work email — separate.  Because Containers store cookies 
-  separately, you can log into the same site with a different account in each Container, 
-  and online trackers can’t connect your browsing in one container to another.  So you can 
-  keep your shopping self separate from your social self from your work self, without 
+  <div class="warning"><strong>Note: Because of the security properties of Containers, Test Pilot experiments such as Page Shot, Snooze Tabs, Pulse, and Activity Stream may not work from within Container tabs. Remember, this is experimental technology!</strong></div>
+  Containers let you create profiles in Firefox for all of your online lives. Custom
+  labels and color-coded tabs help keep different activities — like online shopping,
+  travel planning, or checking work email — separate.  Because Containers store cookies
+  separately, you can log into the same site with a different account in each Container,
+  and online trackers can’t connect your browsing in one container to another.  So you can
+  keep your shopping self separate from your social self from your work self, without
   worrying about being followed around the Web.
 image_twitter: /static/images/experiments/containers/social/containers-twitter.jpg
 image_facebook: /static/images/experiments/containers/social/containers-facebook.jpg
@@ -52,7 +52,7 @@ details:
   -
     image: /static/images/experiments/containers/details/detail3.jpg
     copy: >
-      Use color-coded labels to see different Containers at a glance. 
+      Use color-coded labels to see different Containers at a glance.
 tour_steps:
   -
     image: /static/images/experiments/containers/tour/tour1.jpg
@@ -65,7 +65,7 @@ tour_steps:
     copy: Use the toolbar menu to open Container tabs, create new Containers and organize, edit or delete Containers.
   -
     image: /static/images/experiments/containers/tour/tour4.jpg
-    copy: Hide all tabs in a Container or open them in a new window from the toolbar menu, too.
+    copy: You can hide all open tabs in a Container to keep your browser tidy.
   -
     image: /static/images/experiments/containers/tour/tour5.jpg
     copy: You can always give us feedback or disable Containers from Test Pilot.
