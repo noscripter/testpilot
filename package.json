@@ -35,7 +35,8 @@
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
     "reselect": "^2.5.4",
-    "seedrandom": "^2.4.2"
+    "seedrandom": "^2.4.2",
+    "snyk": "^1.134.2"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -113,6 +114,9 @@
     "test:watch": "npm test -- --watch",
     "coverage": "NODE_ENV=test nyc mocha --recursive --require frontend/test-setup.js frontend/test",
     "addon:locales": "gulp addon-copy-locales",
-    "content": "gulp content-build"
-  }
+    "content": "gulp content-build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
